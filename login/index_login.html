@@ -13,6 +13,7 @@
     <!-- <script type="text/javascript" src="js/pop_up.js" defer></script> -->
     <script type="text/javascript" src="js/onmouseover.js" defer></script>
     <script type="text/javascript" src="js/login.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.2.0/crypto-js.min.js" integrity="sha512-a+SUDuwNzXDvz4XrIcXHuCf089/iJAoN4lmrXJg18XnduKK6YlDHNRalv4yd1N40OKI80tFidF+rqTFKGPoWFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"defer></script>
     <title>LOL 메인화면</title>
     <style>
         table {
@@ -23,7 +24,7 @@
     
 </head>
 
-<body style="background-color: black;">
+<body style="background-color: blue;" onload="checkAuth(); init_logined();">
     <!-- <div style ="display:flex; justify-content:center;">
         <img src="image/ea logo.png" width="200" height="60">
         <h3 style="font-size:24px; font-weight:bold;font-style:italic;color:white;font-family:'굴림';"><a href="https://www.leagueoflegends.com/ko-kr/how-to-play/" target="_blank">게임정보</a> 기본정보 게임목록 패치노트 새소식 다운로드</h3>
