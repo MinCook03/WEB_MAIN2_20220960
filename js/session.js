@@ -1,4 +1,4 @@
-import { encrypt_text, decrypt_text } from './crypto.js';
+// import { encrypt_text, decrypt_text } from '../js/crypto.js';
 
 function session_set() { //세션 저장
     let session_id = document.querySelector("#typeEmailX");
